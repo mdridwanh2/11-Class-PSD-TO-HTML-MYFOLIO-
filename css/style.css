@@ -1,0 +1,61 @@
+/* *comment css starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+/* *comment css ends here */
+
+
+
+
+
+/* *navber starts here */
+
+nav{
+    background-color: #009999;
+}
+nav .logo{
+    width: 40%;
+}
+
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    color: white;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 25px;
+    display: inline-block;
+}
+nav .menu ul li a:hover{
+    color: rgb(252, 223, 1);
+}
+
+/* *navber ends here */
